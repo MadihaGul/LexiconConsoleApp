@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace LexiconConsoleApp
-{
-    class Players
+{    class Players
     {
         // Declare data members
         public string PlayerName;
