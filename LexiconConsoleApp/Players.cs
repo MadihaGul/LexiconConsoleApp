@@ -12,5 +12,6 @@ namespace LexiconConsoleApp
         public string PlayerName;
         public int Power, Health, Luck;
 
+
     }
 }
