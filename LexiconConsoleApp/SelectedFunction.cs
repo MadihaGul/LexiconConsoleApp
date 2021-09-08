@@ -640,13 +640,13 @@ namespace LexiconConsoleApp
                 {
                     if (intGuess == randomnum)
                     {
-                        Console.WriteLine("\n Grattis! Du har gissat rätt i det " + DefineOrdningstal(tries + 1) + " försök");
+                        Console.WriteLine("\n Grattis! Du har gissat rätt i det " + DefineOrdningstal(tries + 1) + " försök\a");
                         break;
                     }
                     else
                     {
                         if (tries == (MaxTries - 1))
-                        { Console.WriteLine("\n Tyvärr! Du har inga försök kvar. Talet var " + $"{randomnum}"); }
+                        { Console.WriteLine("\n Tyvärr! Du har inga försök kvar. Talet var " + $"{randomnum}\a"); }
                         else
                         {
                             if (intGuess < randomnum)
